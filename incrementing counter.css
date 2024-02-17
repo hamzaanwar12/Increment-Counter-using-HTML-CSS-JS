@@ -1,0 +1,43 @@
+*{
+    color: white;
+    font-family:cursive;
+    text-align: center;
+    font-weight: 900;
+}
+body{
+    background-color: blueviolet;
+}
+
+.image{
+    width: 72px;
+    height: 72px;
+    border-radius: 1.25rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 39%;
+    margin: auto;
+    margin-top: 17rem;
+    
+}
+
+
+@media screen and (max-width:672px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .icon{
+        margin-left: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+}
